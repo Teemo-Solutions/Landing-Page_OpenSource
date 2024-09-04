@@ -619,7 +619,36 @@
 <!-- ========================= JS here ========================= -->
 <script src="assets/js/main.js"></script>
 <script src="assets/js/glightbox.min.js"></script>
+<script src="assets/js/tiny-slider.js"></script>
 <script>
+    //========= testimonial
+    tns({
+        container: '.testimonial-slider',
+        items: 3,
+        slideBy: 'page',
+        autoplay: false,
+        mouseDrag: true,
+        gutter: 0,
+        nav: true,
+        controls: false,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            540: {
+                items: 1,
+            },
+            768: {
+                items: 2,
+            },
+            992: {
+                items: 2,
+            },
+            1170: {
+                items: 3,
+            }
+        }
+    });
 
     //========= glightbox
     GLightbox({

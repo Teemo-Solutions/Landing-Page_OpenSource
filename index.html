@@ -372,6 +372,33 @@
 </section>
 <!--/ End Pricing Table Area -->
 
+<!-- Start Intro Video Area -->
+<section class="intro-video-area section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="inner-content-head">
+                    <div class="inner-content">
+                        <img class="shape2" src="assets/video/shape2.svg" alt="#">
+                        <div class="section-title">
+                            <span class="wow zoomIn" data-wow-delay=".2s">Comming Soon</span>
+                            <h2 class="wow fadeInUp" data-wow-delay=".4s">Watch Our intro video</h2>
+                            <p class="wow fadeInUp" data-wow-delay=".6s">This section has been placed for videos</p>
+                        </div>
+                        <div class="intro-video-play">
+                            <div class="play-thumb wow zoomIn" data-wow-delay=".2s">
+                                <a src="https://www.youtube.com/embed/hvuojhm02Yk?si=Wu4NtzaLSxQ_w6wH"
+                                   class="glightbox video"><i class="lni lni-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Intro Video Area -->
+
 <!-- Start Footer Area -->
 <footer class="footer section">
     <!-- Start Footer Top -->
@@ -463,5 +490,18 @@
 
 <!-- ========================= JS here ========================= -->
 <script src="assets/js/main.js"></script>
+<script src="assets/js/glightbox.min.js"></script>
+<script>
+
+    //========= glightbox
+    GLightbox({
+        'href': 'https://www.youtube.com/embed/hvuojhm02Yk?si=Wu4NtzaLSxQ_w6wH',
+        'type': 'video',
+        'source': 'youtube', //video, YouTube or local
+        'width': 900,
+        'autoplayVideos': true,
+    });
+
+</script>
 </body>
 </html>

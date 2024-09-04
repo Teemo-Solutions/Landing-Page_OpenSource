@@ -1086,7 +1086,7 @@ ol {
     font-weight: 600;
     display: inline-block;
     margin-bottom: 20px;
-    color: #10BEAE;
+    color: #572364;
     text-transform: capitalize;
 }
 
@@ -1166,7 +1166,7 @@ ol {
     bottom: -1px;
     height: 2px;
     width: 50px;
-    background: #10BEAE;
+    background: #572364;
     content: "";
 }
 
@@ -1185,7 +1185,7 @@ ol {
     width: 45px;
     height: 45px;
     line-height: 45px;
-    background: #10BEAE;
+    background: #572364;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1212,7 +1212,7 @@ ol {
     box-shadow: 0 1rem 3rem rgba(35, 38, 45, 0.15) !important;
     -webkit-transform: translate3d(0, -5px, 0);
     transform: translate3d(0, -5px, 0);
-    background-color: #10BEAE;
+    background-color: #572364;
 }
 
 /* Overlay */
@@ -1294,7 +1294,7 @@ ol {
 
 .pagination .pagination-list li.active a,
 .pagination .pagination-list li:hover a {
-    background: #10BEAE;
+    background: #572364;
     color: #fff;
     border-color: transparent;
 }
@@ -1314,7 +1314,7 @@ ol {
     font-size: 15px;
     font-weight: 500;
     padding: 14px 30px;
-    background-color: #10BEAE;
+    background-color: #572364;
     color: #fff;
     border: none;
     -webkit-transition: all 0.4s ease;
@@ -1382,7 +1382,7 @@ ol {
 }
 
 .button .btn-alt:hover {
-    background-color: #10BEAE !important;
+    background-color: #572364 !important;
     color: #fff !important;
 }
 
@@ -2506,7 +2506,7 @@ ol {
 }
 
 .footer .single-footer.f-about .social li a:hover {
-    color: #10BEAE;
+    color: #572364;
 }
 
 .footer .single-footer.f-about .copyright-text {
@@ -2546,7 +2546,7 @@ ol {
 }
 
 .footer .single-footer.f-link li a:hover {
-    color: #10BEAE;
+    color: #572364;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 1400px) {
@@ -2601,11 +2601,11 @@ ol {
 }
 
 .footer .newsletter-form input:hover {
-    border-color: #10BEAE;
+    border-color: #572364;
 }
 
 .footer .newsletter-form input:focus {
-    border-color: #10BEAE;
+    border-color: #572364;
 }
 
 .footer .newsletter-form .button {
@@ -2633,7 +2633,7 @@ ol {
 
 .footer .newsletter-form .button .sub-btn:hover {
     color: #fff;
-    background-color: #10BEAE;
+    background-color: #572364;
 }
 
 .footer .copyright-area .inner-content {
@@ -2672,5 +2672,5 @@ ol {
 }
 
 .footer .copyright-area p a:hover {
-    color: #10BEAE;
+    color: #572364;
 }
